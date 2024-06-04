@@ -4,32 +4,65 @@
     <style>
       h1 {
         color: red;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
 
       p {
         margin: 32px;
+        font-style: oblique
       }
 
       button {
+        padding: 10px;
+        font-size: 1.3rem;
       }
 
-      /* TODO: add styles for header  */
+      header {
+        background-color: burlywood;
+        margin: 10px;
+        border: solid 10px;
+        text-align: center;
+      }
       
-      /* TODO: add styles for footer  */
+      footer {
+        font-size: x-small;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        margin-top: 5%; 
+        color: white;
+
+      }
 
       .paragraph-1 {
         background-color: pink;
+        margin: 10%;
+        padding: 15px 20px 20px 15px;
+      }
+
+      li {
+        border: dashed silver 5px;
+        border-radius: 20%;
+        background-color: whitesmoke
+      }
+      .list-item-even {
+        background-color: lightgrey;
+
       }
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1 style="text-decoration: underline">I like cats!
+      <h1 style="text-decoration: underline; ">I like cats!
       </h1>
     </header>
+    <nav>
+      <a> HOME </a> |
+      <a> ABOUT </a> |
+      <a> GALLERY </a>
+    </nav>
     <main>
-      <p class="paragraph-1" style="">
+      <p class="paragraph-1" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 12px; color: darkblue;">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -37,7 +70,7 @@
         aliquam etiam.    
       </p>
     
-      <p style="">
+      <p style="border: solid 6px crimson; border-radius: 16px; background-color: bisque; color: darkolivegreen">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -49,7 +82,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p style="">
+      <p style="text-decoration: underline; text-decoration-style: dotted; text-decoration-thickness: 2px; text-decoration-color:black; color:rgb(3, 82, 35)">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -63,31 +96,32 @@
     
       <table>
         <tr>
-          <th style="">item</th>
-          <th style="">price</th>
+          <th style="background-color:orchid; color:antiquewhite; border: solid black;">item</th>
+          <th style="font-style: italic; border: solid; background-color: salmon;">price</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="background-color:orchid; color:antiquewhite; border: solid black;">hotwheels car</td>
+          <td style="font-style: italic; border: solid; background-color: salmon;">$4.99</td>
         </tr>
         <tr>
-          <td style="">
+          <td style="background-color:orchid; color:antiquewhite; border: solid black;">
             Cabbage patch doll
           </td>
-          <td style="">$1.99</td>
+          <td style="font-style: italic; border: solid; background-color: salmon;">$1.99</td>
         </tr>
       </table>
     
-      <button style="">Buy Now!</button>
+      <button style="text-decoration: underline; background-color: brown; color:aqua; text-decoration-color: black; text-align: center;">Buy Now!</button>
+      <ul>
+        <li>One list</li>
+        <li class="list-item-even">Two List</li>
+        <li id="Red-List">Red List</li>
+        <li id="Blue-List" class="list-item-even">Blue List</li>
+      </ul>
     </main>
-  
-    <nav>
-      <a> HOME </a> |
-      <a> ABOUT </a> |
-      <a> GALLERY </a>
-    </nav>
     
     <footer>
+     <p> Created in CodeX Academy </p>
     </footer>
 
     <script src="./script.js"></script>

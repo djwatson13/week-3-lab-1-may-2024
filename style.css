@@ -1,4 +1,22 @@
 html {
   height: 100%;
   width: 100%;
+  font-size: 16px;
+}
+
+body {
+  background-image: radial-gradient(#3572db, #acd8fa, #7afad6)
+}
+
+main {
+  border: solid 10px #6e502e;
+  border-radius: 20px;
+}
+
+#Red-List {
+  color: Red;
+}
+
+#Blue-list {
+  color: blue;
 }
