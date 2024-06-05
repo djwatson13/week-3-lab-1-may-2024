@@ -20,3 +20,8 @@ main {
 #Blue-list {
   color: blue;
 }
+
+a {
+  color:slategrey;
+  font-family: cursive;
+}
